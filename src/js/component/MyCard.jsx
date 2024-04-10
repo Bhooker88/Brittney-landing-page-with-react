@@ -2,6 +2,7 @@ import React from "react";
 
     const Card = () => {
         return(
+   <div className="m-3">
     <div className="row container-fluid">
         <div className="col-3">
             <img src="https://via.placeholder.com/500x325" className="card-img-top" alt="..."/>
@@ -38,7 +39,7 @@ import React from "react";
                 </div>
         </div>
     </div>
-
+   </div>
 )};
 
 export default Card;
